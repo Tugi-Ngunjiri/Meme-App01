@@ -1,0 +1,167 @@
+.app {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #f8f9fd;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #01d28e;
+  border: 1px solid #01d28e;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background: #6cf0c2;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+
+*{
+  margin : 10px;
+  padding : 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  user-select: none;
+  color: white;
+}
+.app-container{
+  max-width: 400px;
+  height:auto;
+  background-color:black ;
+  margin: 30px auto;
+  overflow: hidden;
+  border-radius: 15px;
+  padding-bottom: 15px ;
+}
+
+.meme-container{
+ display: flex;
+ align-items:centre;
+ flex-direction: column;
+}
+.memeLOGO{
+  height:90px ;
+
+}
+.navbar{
+  display: flex;
+  align-items:centre ;
+  justify-content:space-between;
+  background-color:#2e2e2e;
+  padding:6px  33px;
+  width: 100%;
+}
+
+.title{
+  font-size:18px ;
+  font-weight:bold ;
+  color: #fabd05;
+}
+
+.input-field{
+  display: flex;
+  align-items: centre;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+  margin: 18px 8px;
+
+}
+
+input{
+padding: 10px;
+font-size: 15px;
+width: 180px;
+border: none;
+outline: none;
+background-color: white;
+color:black;
+margin:9px 6px;
+border-radius:9px;
+}
+
+::placeholder {
+color:black ;
+}
+input:focus{
+  outline: 2px solid yellow;
+  color:black;
+
+}
+
+.generateBTN{
+  margin: 20px;
+  padding: 0px;
+  background-color:yellow;
+  color:black;
+  font-weight:bold;
+  padding:12px 9px;
+  border-radius:9px;
+  margin: left calc(30%);
+  margin-bottom: 12px;
+}
+
+.generateBTN:active{
+background-color:#f7c12a;
+}
+
+.imageMEME{
+ max-width: 315px;
+ border-radius:9px;
+ border:2px solid white;
+}
+
+.firstline{
+  color: black;
+}
+.secondline{
+  color: black;
+}
+
+
